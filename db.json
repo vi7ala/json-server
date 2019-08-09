@@ -1,0 +1,95 @@
+{
+  "orders": [
+    {
+      "id": 1,
+      "order_num": 1234,
+      "many": false,
+      "exist": true,
+      "ready": true,
+      "in_slot": true
+    },
+    {
+      "id": 2,
+      "order_num": 2222,
+      "many": true,
+      "exist": false,
+      "ready": true,
+      "in_slot": true
+    },
+    {
+      "id": 3,
+      "order_num": 1221,
+      "many": false,
+      "exist": true,
+      "ready": true,
+      "in_slot": true
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "pin": 1111,
+      "orders": [
+        {
+          "order_num": 1234
+        },
+        {
+          "order_num": 2222
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pin": 2222,
+      "orders": [
+        {
+          "order_num": 1221
+        }
+      ]
+    }
+  ],
+  "baskets": [
+    {
+      "id": 1,
+      "frozen": true,
+      "order_id": 1,
+      "cell_id": 24,
+      "empty": false
+    },
+    {
+      "id": 8,
+      "frozen": false,
+      "order_id": 1,
+      "cell_id": 25,
+      "empty": false
+    },
+    {
+      "id": 2,
+      "frozen": true,
+      "order_id": 1,
+      "cell_id": 15,
+      "empty": false
+    },
+    {
+      "id": 9,
+      "frozen": false,
+      "order_id": 1,
+      "cell_id": 16,
+      "empty": false
+    },
+    {
+      "id": 3,
+      "frozen": false,
+      "order_id": 2,
+      "cell_id": 37,
+      "empty": false
+    },
+    {
+      "id": 4,
+      "frozen": false,
+      "order_id": 2,
+      "cell_id": 9,
+      "empty": false
+    }
+  ]
+}
